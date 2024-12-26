@@ -1,0 +1,11 @@
+A=45
+print(A)
+print(type(A))
+print("-----------------------")
+A=13.5
+print(A)
+print(type(A))
+print("-------------------")
+A=6+7j
+print(A)
+print(type(A))

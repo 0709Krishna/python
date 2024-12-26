@@ -1,0 +1,11 @@
+Num1=int(input("Enter the first numnber:"))
+Num2=int(input("Enter the second number:"))
+#Arthimetic operators
+print("sum:",(Num1+Num2))
+print("dif:",(Num1-Num2))
+print("mul:",(Num1*Num2))
+print("div:",(Num1/Num2))
+print("modulous:",(Num1%Num2))
+print("exponent:",(Num1**Num2))
+print("positive floor division:",(Num1//Num2))
+print("negative floor division:",(-Num1//Num2))
