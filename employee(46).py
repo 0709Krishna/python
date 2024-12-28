@@ -31,12 +31,12 @@ print("------------------------------------------------------------------------"
 Taxable_Income=0
 if(Salary>500000):
     Taxable_Income=Gross_annual_salary*0.5
-    print("Taxable_Income:",Taxable_Income)
+    print("Taxable_Income:",Gross_annual_salary-Taxable_Income)
 elif(Salary>400000):
     Taxable_Income=Gross_annual_salary*0.10
-    print("Taxable_Income:",Taxable_Income)
+    print("Taxable_Income:",Gross_annual_salary-Taxable_Income)
 else:
     Taxable_Income=Gross_annual_salary*0.2
-    print("Taxable_Income:",Taxable_Income)
+    print("Taxable_Income:",Gross_annual_salary-Taxable_Income)
     
     

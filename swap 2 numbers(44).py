@@ -9,26 +9,26 @@ print("Num1=",Num1)
 print("Num2=",Num2)
 print("------------------------------------------------------------------")
 #swapping using arthimetic operators
-Num1=str(input("enter the first number:"))
-Num2=str(input("enter the second number:"))
+N1=str(input("enter the first number:"))
+N2=str(input("enter the second number:"))
 print("before swapping:")
-print("Num1=",Num1)
-print("Num2=",Num2)
-Num1=Num1+Num2
-Num2=Num1-Num2
-Num1=Num1-Num2
+print("N1=",N1)
+print("N2=",N2)
+N1=N1+N2
+N2=N1-N2
+N1=N1-N2
 print("after swapping:")
-print("Num1=",Num1)
-print("Num2=",Num2)
+print("N1=",N1)
+print("N2=",N2)
 #swapping using third variable
-Num1=int(input("enter the first number:"))
-Num2=int(input("enter the second number:"))
+Num5=int(input("enter the first number:"))
+Num6=int(input("enter the second number:"))
 print("before swapping:")
-print("Num1=",Num1)
-print("Num2=",Num2)
-temp=Num1
-Num1=Num2
-Num2=temp
+print("Num5=",Num5)
+print("Num6=",Num6)
+temp=Num5
+Num5=Num6
+Num6=temp
 print("after swapping:")
-print("Num1=",Num1)
-print("Num2=",Num2)
+print("Num5=",Num5)
+print("Num6=",Num6)
