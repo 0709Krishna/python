@@ -1,4 +1,4 @@
-#list
+#tuple
 a=('python','sql','java')
 print(a)
 print(type(a))
